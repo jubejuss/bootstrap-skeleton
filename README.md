@@ -1,2 +1,20 @@
 # bootstrap-skeleton
-Simple bootstrap skeleton for bootstrap layout teatching purposes – container, row, col
+Lihtne bootstrapi skelett, lihtsalt demonstreerimaks bootstrapi ülesehitust.
+
+## Bootstrapi põhiklassid
+Bootstrapis põhiklassid on – container, row ja col  
+
+Nende paigutamisel on oluline järgida kindlat järjekorda ja struktuuri, et tagada reageeriva disaini ja korrektse paigutuse loomine.
+
+### Container
+Alusta container klassiga. See on kõige välimine kiht ja seda kasutatakse sisu tsentreerimiseks ja paigutamiseks lehel. Bootstrapis on kaks konteineri tüüpi:
+`.container`: Fikseeritud laiusega konteiner, mis muutub erinevatel ekraanisuurustel.  
+`.container-fluid`: Konteiner, mis venib kogu ekraani laiusele igal seadmel.
+Miks? Konteiner on oluline, kuna see loob lehele kindla "lava", millel kõik muu sisu asetseb. See tagab, et kõik elemendid on korralikult tsentreeritud ja paigutatud.
+### Row
+Järgmine samm on lisada `.row`. See peaks alati asuma konteineri sees. Rida kasutatakse veergude (columns) grupeerimiseks ja see tagab, et kõik veerud asuvad ühel ja samal horisontaaltasandil.  
+Row klass aitab hallata veergude vahelisi vahekaugusi (gutters) ja ridade ühtlust. Ilma reata võivad veerud paigutuda ebaühtlaselt.
+### Col (Columns)
+Viimane samm on lisada veerud col klassi abil ridade sisse. Veerge saab jagada erinevateks suurusteks, kasutades spetsiifilisi klassinimede prefikseid, mis vastavad ekraanisuurustele (nt `.col-*`, `col-sm-*`, `col-md-*`, jne).  
+Veerud on Bootstrapi võrkude süsteemi põhielemendid. Nad võimaldavad sisu jagada mitmeks veeruks, mis kohanduvad automaatselt vastavalt ekraani suurusele. See tagab, et sisu on korralikult organiseeritud ja reageeriv.
+
