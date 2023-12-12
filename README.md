@@ -2,7 +2,7 @@
 Lihtne bootstrapi skelett, lihtsalt demonstreerimaks bootstrapi ülesehitust.
 
 ## Bootstrapi põhiklassid
-Bootstrapis põhiklassid on – container, row ja col  
+Bootstrapi põhiklassid on – container, row ja col  
 
 Nende paigutamisel on oluline järgida kindlat järjekorda ja struktuuri, et tagada reageeriva disaini ja korrektse paigutuse loomine.
 
