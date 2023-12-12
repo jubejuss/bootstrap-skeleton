@@ -16,5 +16,17 @@ Järgmine samm on lisada `.row`. See peaks alati asuma konteineri sees. Rida kas
 Row klass aitab hallata veergude vahelisi vahekaugusi (gutters) ja ridade ühtlust. Ilma reata võivad veerud paigutuda ebaühtlaselt.
 ### Col (Columns)
 Viimane samm on lisada veerud col klassi abil ridade sisse. Veerge saab jagada erinevateks suurusteks, kasutades spetsiifilisi klassinimede prefikseid, mis vastavad ekraanisuurustele (nt `.col-*`, `col-sm-*`, `col-md-*`, jne).  
-Veerud on Bootstrapi võrkude süsteemi põhielemendid. Nad võimaldavad sisu jagada mitmeks veeruks, mis kohanduvad automaatselt vastavalt ekraani suurusele. See tagab, et sisu on korralikult organiseeritud ja reageeriv.
+Veerud on Bootstrapi võrkude süsteemi põhielemendid. Nad võimaldavad sisu jagada mitmeks veeruks, mis kohanduvad automaatselt vastavalt ekraani suurusele. See tagab, et sisu on korralikult organiseeritud ja reageeriv.  
+
+## Layout'i näidis
+
+```html
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">Veeru 1 sisu</div>
+    <div class="col-md-4">Veeru 2 sisu</div>
+    <div class="col-md-4">Veeru 3 sisu</div>
+  </div>
+</div>
+```
 
