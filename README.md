@@ -32,7 +32,7 @@ Veerud on Bootstrapi võrkude süsteemi põhielemendid. Nad võimaldavad sisu ja
 
 ### Ülesanne 1:
 *Kasutades Bootstrapi klasse:*
-1. Lisa oma Node bootstrapi projekti siinse `index.html` faili kuvatav sisu.
+1. Lisa oma Node bootstrapi projekti siinse `index.html` faili veebilehitsejas kuvatav sisu.
 2. Nimeta töös kasutusel olevad klassid ja selgita, milline on neist igaühe funktsioon.
 3. Muuda päise taustavärv tumedaks ja tõmba see servast servani.
 4. Lisa iga kaardi ülemisse osasse erinevas suuruses pilt nii, et see järgiks kaardi raadiuseid.
