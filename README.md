@@ -38,3 +38,5 @@ Veerud on Bootstrapi võrkude süsteemi põhielemendid. Nad võimaldavad sisu ja
 4. Lisa iga kaardi ülemisse osasse erinevas formaadis (püstine, pikali, erineva küle suhtega) pilt nii, et see järgiks kaardi raadiuseid.
 5. Lisa piltidele 2rem-i paddingut ja muuda piltide nurkade raadiusteks 2rem-i.
 6. Muuda pildid css-i kasutades sama suurteks ja sama külje suhtega piltideks. VIHJE: aspect ratio, object-fit
+
+Lõpptulemusena peab teie bootsrapi node projekt nägema välja nagu siin kirjutatud
